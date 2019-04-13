@@ -1,3 +1,5 @@
 # Calculator_func
 Calculator made with functions.
-<center>[![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)]</center>
+<p align="center">
+  <img src="https://forthebadge.com/images/badges/made-with-python.svg" />
+<br><br></p>
