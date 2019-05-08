@@ -1,3 +1,4 @@
+# author: sanjeet
 # calculator with functions
 
 while 1 == 1:  # to make sure that the program runs until the user doesn't choose to quit
