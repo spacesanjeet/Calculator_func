@@ -51,15 +51,27 @@ def main():   # main function of the program
         elif choice == 4:
             num1 = float(input('Enter a number: '))
             num2 = float(input('Enter another number: '))
-            print('Result is', divide(num1, num2))
+            try:
+                result = divide(num1, num2)
+                print('Result is', result)
+            except:
+                print("Divide by zero error! Can't divide a number by zero")
         elif choice == 5:
             num1 = float(input('Enter a number: '))
             num2 = float(input('Enter another number: '))
-            print('Result is', floor_divide(num1, num2))
+            try:
+                result = floor_divide(num1, num2)
+                print('Result is', result)
+            except:
+                print("Divide by zero error! Can't divide a number by zero")
         elif choice == 6:
             num1 = float(input('Enter a number: '))
             num2 = float(input('Enter another number: '))
-            print('Result is', modulus(num1, num2))
+            try:
+                result = modulus(num1, num2)
+                print('Result is', result)
+            except:
+                print("Divide by zero error! Can't divide a number by zero")
         elif choice == 7:
             num1 = float(input('Enter a number: '))
             print('Result is', square(num1))
